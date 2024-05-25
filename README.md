@@ -1,16 +1,22 @@
-# flutter_maps_poc
+A Flutter application using OSM services and displaying maps with Markers between source and destination location.
 
-A new Flutter project.
+FEATURES:
 
-## Getting Started
+1) Fetching User's Live Location with accuracy as source location and destination location is any random location that is being generated with respect to User's current location.
+2) Routes are drawn between source and destination location.
+3) Generated Multicolor Polyline Points between source and destination using OSM (Open Street Map) services.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+APP INSTRUCTIONS:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1) Initially when the app starts User's current location will be displayed in the map with some randomly generated destination location with respect to User's current location.
+2) While clicking on the Floating action button with Location Icon every time a new destination location will be generated and also the Polyline Points will also be generated every time.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![img1](https://github.com/Karanjit08/Flutter-Maps-POC/assets/121970119/1c9dc0fa-bec5-4180-92cd-65389cc26603)
+
+![img2](https://github.com/Karanjit08/Flutter-Maps-POC/assets/121970119/f2b5cad3-4f4d-4a71-94e3-16597c0d3126)
+
+![img3](https://github.com/Karanjit08/Flutter-Maps-POC/assets/121970119/5561da71-4da0-46be-a6b9-5747a1647ebc)
+
+
+
